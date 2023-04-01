@@ -1,0 +1,10 @@
+1. api for creating room with 1.number of seats available,2.amenities,3.pricee
+/api/createroom/rooms
+2. api for for booking room with 1.customer name,2.date,3.start time,4.end time,5.room._Id
+/api/book/bookings
+3.api for list all rooms with booked data with 1.room no 2. booked status 3. customer name,4.date,5,start time,6.endtime
+/api/book/rooms
+4. api for  list all customers with1.cutomername,2.room no,3.date,4,start time,5.endtime
+/api/book/customers
+5. api for list how many customers has booked room with below data  1.CustomerName,2.Room number,3.date,4.start time,5.end time.6.booking status,7.booking id,8.booking date
+/api/book/bookings/count
