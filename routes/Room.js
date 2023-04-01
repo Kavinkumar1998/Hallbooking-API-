@@ -1,5 +1,5 @@
 import express from "express";
-import {Room} from "../model/Room.js"
+import {Room} from "../model/room.js"
 const router = express.Router();
 
 // api for creating room with 1.number of seats available,2.amenities,3.pricee
