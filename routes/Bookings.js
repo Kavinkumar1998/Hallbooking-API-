@@ -1,5 +1,5 @@
 import express from "express";
-import { Booking} from "../model/booking.js";
+import  Booking from "../model/booking.js";
 import { Room } from "../model/room.js"
 import Obj from "mongodb";
 export var ObjectId = Obj.ObjectId;
