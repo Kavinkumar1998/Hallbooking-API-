@@ -1,5 +1,4 @@
-import mongoose from"mongoose";
-
+const mongoose =require("mongoose");
 const bookingSchema = new mongoose.Schema({
     CustomerName :{
         type: String,
@@ -26,4 +25,4 @@ const bookingSchema = new mongoose.Schema({
 });
 
 const Booking = new mongoose.model("Booking",bookingSchema);
-export default Booking;
+modules.exports= Booking;

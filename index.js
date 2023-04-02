@@ -1,9 +1,9 @@
-import express from "express";
-import dotenv from "dotenv";
-import cors from "cors";
-import { roomRouter } from "./routes/Room.js";
-import { databaseConnection } from "./db.js";
-import { bookingRouter } from "./routes/Bookings.js";
+const express =require("express") ;
+const dotenv =require("dotenv") ;
+const cors =require("cors") ;
+const { roomRouter } =require( "./routes/Room.js");
+const { databaseConnection } =require("./db.js") ;
+const { bookingRouter } =require("./routes/Bookings.js");
 
 
 dotenv.config();

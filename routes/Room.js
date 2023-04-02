@@ -1,4 +1,4 @@
-import express from "express";
+const express =require("express");
 // import {Room} from "../model/room.js"
 const router = express.Router();
 
@@ -20,4 +20,4 @@ router.post("/rooms",async(req,res)=>{
     }
 })
 
-export const roomRouter = router;
+exports.roomRouter = router;

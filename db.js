@@ -1,9 +1,9 @@
-import mongoose from "mongoose";
-import dotenv from "dotenv";
+const mongoose=require("mongoose");
+const dotenv=require("dotenv");
 dotenv.config();
 
 
-export function databaseConnection(){
+function databaseConnection(){
     const params = {
         useNewUrlParser:true,
         useUnifiedTopology:true,
@@ -15,3 +15,4 @@ export function databaseConnection(){
     catch(error){
         console.log("Mongodb connection error",error)    }
 }
+exports.databaseConnection= databaseConnection;
