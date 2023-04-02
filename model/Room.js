@@ -1,4 +1,4 @@
-const mongoose=require("mongoose");
+import mongoose from "mongoose";
 
 const roomSchema = new mongoose.Schema({
     RoomNo:{
@@ -26,4 +26,4 @@ const roomSchema = new mongoose.Schema({
 
 
 const Room = mongoose.model("Room",roomSchema)
-exports.room= Room
+export {Room}

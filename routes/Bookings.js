@@ -1,8 +1,8 @@
-const  express=require("express");
-const   Booking=require("../model/booking");
-const  { Room }=require("../model/room")
-const  Obj=require("mongodb");
-exports.ObjectId = Obj.ObjectId;
+import express from "express";
+import  Booking from "../model/Booking.js"
+import { Room } from "../model/Room.js"
+import Obj from "mongodb";
+export var ObjectId = Obj.ObjectId;
 
 const router = express.Router();
 
@@ -111,4 +111,4 @@ res.status(400).json(bookings);
 
 
 
-exports.bookingRouter = router;
+export const bookingRouter = router;
