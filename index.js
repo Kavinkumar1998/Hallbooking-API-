@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 import cors from "cors";
 import { roomRouter } from "./routes/Room.js";
 import { databaseConnection } from "./db.js";
-import { bookingRouter } from "./routes/bookings.js";
+import { bookingRouter } from "./routes/Bookings.js";
 
 
 dotenv.config();
